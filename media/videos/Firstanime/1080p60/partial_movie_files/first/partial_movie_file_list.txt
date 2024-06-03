@@ -1,0 +1,6 @@
+# This file is used internally by FFMPEG.
+file 'file:C:/Users/dell/Desktop/New Git/Manim/media/videos/Firstanime/1080p60/partial_movie_files/first/3977891868_1014371560_538290996.mp4'
+file 'file:C:/Users/dell/Desktop/New Git/Manim/media/videos/Firstanime/1080p60/partial_movie_files/first/2852726489_3890345977_2367812191.mp4'
+file 'file:C:/Users/dell/Desktop/New Git/Manim/media/videos/Firstanime/1080p60/partial_movie_files/first/2852726489_3400267285_4202405832.mp4'
+file 'file:C:/Users/dell/Desktop/New Git/Manim/media/videos/Firstanime/1080p60/partial_movie_files/first/2852726489_2273920051_2517358003.mp4'
+file 'file:C:/Users/dell/Desktop/New Git/Manim/media/videos/Firstanime/1080p60/partial_movie_files/first/2852726489_3890345977_3235858134.mp4'
