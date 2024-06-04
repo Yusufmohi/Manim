@@ -1,0 +1,7 @@
+# This file is used internally by FFMPEG.
+file 'file:C:/Users/dell/Desktop/New Git/Manim/media/videos/Project1/1080p60/partial_movie_files/first/3977891868_1076783916_223132457.mp4'
+file 'file:C:/Users/dell/Desktop/New Git/Manim/media/videos/Project1/1080p60/partial_movie_files/first/2852726489_2177883691_2705702543.mp4'
+file 'file:C:/Users/dell/Desktop/New Git/Manim/media/videos/Project1/1080p60/partial_movie_files/first/2852726489_1557960907_1633239908.mp4'
+file 'file:C:/Users/dell/Desktop/New Git/Manim/media/videos/Project1/1080p60/partial_movie_files/first/2852726489_3789517517_2055735806.mp4'
+file 'file:C:/Users/dell/Desktop/New Git/Manim/media/videos/Project1/1080p60/partial_movie_files/first/2852726489_685133418_1774378959.mp4'
+file 'file:C:/Users/dell/Desktop/New Git/Manim/media/videos/Project1/1080p60/partial_movie_files/first/2852726489_1704852926_1906810043.mp4'
