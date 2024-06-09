@@ -1,9 +1,28 @@
 from manim import *
 import numpy as np
 
+class axis5(Scene):
+    def construct(self):
+        number=ValueTracker(7)
+        axes=always_redraw(lambda:Axes(x_range=(-10,10),y_range=(-1,1),x_length=number.get_value(),y_length=2,tips=False).add_coordinates().set_color(BLUE))
+        self.play(Write(axes))
+        num=ValueTracker(1)
+        curve=always_redraw(lambda:axes.plot(lambda x:np.sin(num.get_value()*x),color=YELLOW))
+        self.play(Create(curve))
+        self.play(number.animate.set_value(30))
+        self.wait()
+        self.play(num.animate.set_value(10))
+        self.wait()
+        self.play(number.animate.set_value(4))
+        self.wait(2)                    
+
+
+
+
+
 class axis4(Scene):
     def construct(self):
-        axes=Axes(x_range=(-7,7),y_range=(-2,2),x_length=13,y_length=3,tips=False).add_coordinates().set_color(BLUE)
+        axes=Axes(x_range=(-4,4),y_range=(0,16),x_length=5,y_length=7,tips=False).add_coordinates().set_color(BLUE)
         x=axes.get_x_axis_label("X").set_color(GREEN)
         y=axes.get_y_axis_label("Y").set_color(GREEN)
         self.play(Write(axes),Write(x),Write(y))
@@ -11,7 +30,7 @@ class axis4(Scene):
         curve1=always_redraw(lambda: axes.plot(lambda x:number.get_value()*x*x,color=YELLOW))
         self.play(Write(curve1))
         self.play(number.animate.set_value(2),run_time=2)
-        self.play(number.animate.set_value(0.2),run_time=4)
+        self.play(number.animate.set_value(0.2),run_time=3)
         self.play(number.animate.set_value(7),run_time=2)
         self.wait(3)
 
