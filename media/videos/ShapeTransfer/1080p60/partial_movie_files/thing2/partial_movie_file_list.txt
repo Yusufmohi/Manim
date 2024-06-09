@@ -1,0 +1,3 @@
+# This file is used internally by FFMPEG.
+file 'file:C:/Users/dell/Desktop/New Git/Manim/media/videos/ShapeTransfer/1080p60/partial_movie_files/thing2/3977891868_361559802_223132457.mp4'
+file 'file:C:/Users/dell/Desktop/New Git/Manim/media/videos/ShapeTransfer/1080p60/partial_movie_files/thing2/2852726489_1141282389_164952530.mp4'
