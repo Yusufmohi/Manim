@@ -25,8 +25,8 @@ class second(Scene):
         self.wait()
         self.play(dot.animate.scale(200),run_time=0.5)
         b=Text("BIG BANG!",color=WHITE,font_size=70,stroke_width=3)
-        self.play(TransformMatchingShapes(dot,b),FocusOn(b,run_time=0.5))
-        self.play(Indicate(b,color=RED),Flash(b[0:],line_length=0.8,flash_radius=2))
+        self.play(TransformMatchingShapes(dot,b))
+        self.play(Indicate(b),Flash(b[0:],line_length=0.8,flash_radius=3.5,stroke_width=4))
 
         
         
